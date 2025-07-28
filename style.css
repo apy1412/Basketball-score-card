@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('fonts/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('fonts/cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    display:grid;
+    place-items:center;
+    height:100vh;
+}
+
+.main{
+    width:575px;
+    height: 385px;
+    background-color: #1B244A;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    gap:30px;
+    text-align: center;
+    padding: 20px;
+ 
+}
+
+h2
+{
+    color:white;
+    margin: 0;
+    font-size: 40px;
+    
+}
+h3{
+    color:#F94F6D;
+    font-family: 'cursed_timer_ulilregular';
+    background-color: #080001;
+    width:155px;
+    height:120px;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    font-size: 90px;
+}
+.home, .guest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.button{
+    display: flex;
+    gap:10px;
+}
+.btn{
+    width:45px;
+    height:45px;
+    border:2px solid #9AABD8;
+    background: transparent;
+    color: #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resetButton{
+  
+    grid-column: 1/-1;
+    
+}
+.btn-reset{
+    width:200px;
+    color:red;
+    border:2px solid red;
+    padding: 10px 20px;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+
+  
+}
