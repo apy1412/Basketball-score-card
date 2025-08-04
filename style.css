@@ -83,8 +83,9 @@ h3{
 }
 .btn-reset{
     width:200px;
+    height:50px;
     color:red;
-    border:2px solid red;
+    border:2px solid rgb(218, 61, 61);
     padding: 10px 20px;
     background-color: transparent;
     text-transform: uppercase;
